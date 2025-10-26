@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+asyncpg
+SQLAlchemy
+alembic
+
+aiogram
+aiohttp
+
+requests
+pillow
+mutagen
+
+playwright
