@@ -1,11 +1,9 @@
 import { ChatContainer } from "./components/ChatContainer";
 import { persona } from "./data/persona";
-import "./App.css";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-      {/* Основной компонент чата */}
+    <div className="w-screen h-screen bg-gray-100 flex justify-center items-center overflow-hidden">
       <ChatContainer persona={persona} />
     </div>
   );
